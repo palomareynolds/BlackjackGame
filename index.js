@@ -43,7 +43,7 @@ function newCard() {
 }
 
 function getRandomCard() {
-    let randomCard = Math.floor(Math.random()* 11);
+    let randomCard = Math.floor(Math.random()* 13) + 1;
     return randomCard;
 }
     
